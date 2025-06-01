@@ -276,6 +276,14 @@ img:hover{
     padding: 0;  
     width: 100%;
 }
+.presentation-title{
+    width: 100vw;
+    display: flex;
+    background-color:#02a28f;
+    padding-left:0;
+    justify-content: center;
+    text-align: center;
+}
 
 .presentation-article{
     display: flex;
@@ -307,11 +315,7 @@ img:hover{
 .presentation-post-text {
     padding: 1.5rem;
 }
-.title-blog{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+
 .container{
   display:flex;
   flex-direction: column;
@@ -326,9 +330,8 @@ img:hover{
    border-radius: 1rem;
 }
 .presentation-article{
-    width:100%;
-    margin-bottom:0;
-    align-items: center;  
+    width:95vw;
+    margin-bottom:0;  
 }
 .backgroundH2-green{
     background-color: #02a28f;
@@ -390,17 +393,17 @@ img:hover{
     border-radius:.7rem;
     color: #fff;
     display: flex;
-    align-items: center;
-    justify-content:center;
+    justify-content: center;
     box-shadow: 0rem 10px 10px 0px #0000001A;
-    padding-right: rem;
-    text-align: center;
+    padding: 0;
+    text-align:center;
+    align-items: center;
     }
 .backgroundH2-green3 > h2{
-    font-size: 1.25rem;    
+    font-size: 1.25rem; 
+   /* text-align: center;*/  
 }
 .presentation-articl{
    margin-left: .4rem; 
 }
 }
-
