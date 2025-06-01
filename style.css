@@ -1,0 +1,406 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    width: 30vw;
+}
+li::before{
+    content: '> ';
+}
+ul{
+    list-style-type: none;
+}
+
+.presentation-title{
+    width: auto;
+    display: flex;
+    background-color:#02a28f;
+    padding-left: 9rem;
+  
+}
+.title-blog{
+ background-color:#02a28f;
+ padding-top: 1rem;
+ padding-bottom: 1rem;   
+}
+/*
+#background-green{
+    background-color: #02a28f;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 9rem; 
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 10px 10px 0px #0000001A;    
+}*/
+
+#rodape-txt{
+    height: 3vh;
+    background-color: #02a28f;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;   
+}
+#rodape-txt > p {
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.backgroundH2-green{
+    background-color: #02a28f;
+    width: 25vw;
+    height: 6.5vh;
+    margin-top: 7.5rem; 
+    border-radius:.7rem;
+    /*padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;*/
+    color: #fff;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+}
+.backgroundH2-green > h2{
+    font-size: 1.25rem;
+   padding-left: 2rem;
+}
+.Presentation-container{
+    margin: 0;
+    padding: 0;  
+    width: 57vw;
+}
+.presentation-post{
+    background-image: url(assets/postmenu.jpg);
+    width:50vw;
+    height: 49.5vh;
+    padding: 2rem 2rem;
+    border-radius: .6rem;
+    gap: .7rem;
+    margin-top: 7.5rem;
+    background-size: cover;
+    margin-right: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items:self-end;
+    box-shadow: 0rem 10px 10px 0px #0000001A;
+}
+.presentation-post-text{
+    width:50vw;
+    color: #fff;
+    
+    
+}
+.presentation-post-text > p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 100%;
+    margin:0;
+}
+.presentation-post-text > h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+.article-containetest{
+    display: flex;
+    flex-direction:row-reverse;
+    box-shadow: 0rem 10px 10px 0px #0000001A;
+    border-radius: 1rem;
+    justify-content:space-evenly;
+    width: 25vw;
+    align-items: center;
+    height: 15vh;
+    margin-top: 1rem;
+}
+.article-containetest > img{
+    margin-left: 1rem;
+}
+.container-postpop{
+    margin-left: 1rem;
+}
+.container-postpop > h3 {
+    font-size: 0.9rem;
+    margin: 0;
+}
+.container-postpop > p {
+    font-size: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+.article-containetest > div {
+    width: 70%;
+    
+}
+.article-containetest:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+img:hover{
+    cursor:pointer;
+    filter: brightness(1.2) saturate(1.2);
+
+}
+.presentation-post:hover{
+    cursor:pointer;
+    transition: filter 0.3s ease;
+    filter: brightness(1.2) saturate(1.2);
+    transform-box:view-box;
+    opacity: 0.8
+}
+.article-cards{
+   display: flex;
+   flex-direction: column-reverse;
+   margin-top: .5rem;
+   box-shadow: 0rem 10px 10px 0px #0000001A;
+   width: 26vw;
+   margin:0 5 0 5;
+   border-radius: 1rem;
+
+   
+}
+.presentation-article{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+    width:100%;
+    margin-bottom: 10rem;
+    align-items: center;  
+}
+.backgroundH2-green2{
+    background-color: #02a28f;
+    width: 52.5vw;
+    height: 8vh;
+    margin-top: 7.5rem; 
+    border-radius:.7rem;
+    padding-left: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 5rem;
+    box-shadow: 0rem 10px 10px 0px #0000001A;
+}
+.backgroundH2-green2 > h2{
+    font-size: 1.5rem;
+    width: 30vw;
+}
+.backgroundH2-green2 > a{
+    padding-right: 1.5rem;
+}
+ .backgroundH2-green3 > h2{
+        width:5vw;
+    }
+.article-cards:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.category-section{
+    width: 25vw;
+}
+.category-list > li{
+    list-style-type: none;
+   display: inline-block;
+}
+.category-list{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content:space-between;
+    padding: 0;
+    margin-top: 1rem;
+}
+.backgroundH2-green2 > a{
+    color: #fff;
+}
+.category-list > a{
+    text-decoration:none;
+    color: #616161;
+}
+.presentation-fomous > a{
+    text-decoration: none;
+    color: #616161;
+}
+.presentation-articl > div > a{
+    text-decoration: none;
+}
+.article-divCards > p{
+    color: #000;
+}
+.article-divCards > h2{
+    color: #000
+}
+.article-divCards > h5{
+    color: #616161
+}
+@media only screen and (min-width: 768px){
+    .Container{
+    display: flex;
+    margin-left: 10rem;
+}
+.backgroundH2-green3{
+    background-color: #02a28f;
+    width: 22.8vw;
+    height: 6.5vh;
+    margin-top: 7.5rem; 
+    border-radius:.7rem;
+    padding-left: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0rem 10px 10px 0px #0000001A;
+    }
+.backgroundH2-green3 > h2{
+    font-size: 1.25rem;
+}
+}
+
+@media only screen and (max-width: 768px){
+    h1{
+    font-size: 1.5rem;
+    width: 50vw;
+}   
+.Presentation-container{
+    margin: 0;
+    padding: 0;  
+    width: 100%;
+}
+
+.presentation-article{
+    display: flex;
+    flex-direction: column;  
+}
+
+.presentation-post{
+    background-image: url(assets/postmenu.jpg);
+    width:auto;
+    height: 65vh;
+    padding:1.5rem;
+    border-radius: .6rem;
+    border:.6rem;
+    gap:0;
+    background-size: cover;
+    margin: 1rem 1rem auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:self-end;
+    box-shadow: 0rem 10px 10px 0px #0000001A;
+}
+.presentation-post-text > h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 100%;
+    margin: 0;
+    width:50vw;
+}
+.presentation-post-text {
+    padding: 1.5rem;
+}
+.title-blog{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+}
+.article-cards{
+   display: flex;
+   flex-direction: column-reverse;
+   margin-top: .5rem;
+   box-shadow: 0rem 10px 10px 0px #0000001A;
+   width: auto;
+   margin:0 5 0 5;
+   border-radius: 1rem;
+}
+.presentation-article{
+    width:100%;
+    margin-bottom:0;
+    align-items: center;  
+}
+.backgroundH2-green{
+    background-color: #02a28f;
+    width: 95vw;
+    height: 6.5vh;
+    margin-top: 1.5rem; 
+    border-radius:.7rem;
+    /*padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;*/
+    color: #fff;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+}
+.category-section{
+    width: 96vw;
+    margin-left:.4rem;
+}
+.presentation-fomous{
+    margin-left: .4rem;
+}
+.article-containetest{
+    width: 95vw;   
+}
+.backgroundH2-green2{
+    background-color: #02a28f;
+    width: 95vw;
+    height: 6.5vh;
+    margin-top: 1.5rem; 
+    border-radius:.7rem;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right: 5rem;
+    box-shadow: 0rem 10px 10px 0px #0000001A; 
+}
+.article-divCards > h5{
+   font-size: .8rem;
+}
+.article-divCards > p{
+   font-size: .8rem;
+}
+.article-divCards > h2{
+   font-size:1.2rem;
+}
+.backgroundH2-green2 > h2{
+    width:70vw;
+    font-size: 1.25rem;
+}
+.backgroundH2-green3{
+    background-color: #02a28f;
+    width: 95vw;
+    height: 6.5vh;
+    margin-top: 1.5rem;
+    border-radius:.7rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 0rem 10px 10px 0px #0000001A;
+    padding-right: rem;
+    text-align: center;
+    }
+.backgroundH2-green3 > h2{
+    font-size: 1.25rem;    
+}
+.presentation-articl{
+   margin-left: .4rem; 
+}
+}
+
